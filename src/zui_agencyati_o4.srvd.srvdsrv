@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_AGENCYATI'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_AGENCYATI'
+  }
+}
+define service ZUI_AGENCYATI_O4 provider contracts odata_v4_ui {
+  expose ZC_AGENCYATI as Agency;
+}
